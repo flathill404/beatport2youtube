@@ -1,0 +1,1260 @@
+{
+  "next": "api.beatport.com/v4/catalog/genres/13/top/10/?page=2",
+  "previous": null,
+  "count": 10,
+  "page": "1",
+  "per_page": 10,
+  "results": [
+    {
+      "artists": [
+        {
+          "id": 864284,
+          "image": {
+            "id": 26176119,
+            "uri": "https://geo-media.beatport.com/image_size/590x404/419b0256-a5e9-4535-83ef-09bb1ab13297.jpg",
+            "dynamic_uri": "https://geo-media.beatport.com/image_size/{w}x{h}/419b0256-a5e9-4535-83ef-09bb1ab13297.jpg"
+          },
+          "name": "Funk Tribu",
+          "slug": "funk-tribu",
+          "url": "https://api.beatport.com/v4/catalog/artists/864284/"
+        }
+      ],
+      "publish_status": "published",
+      "available_worldwide": false,
+      "bpm": 150,
+      "catalog_number": "ARTCORE015",
+      "current_status": {
+        "id": 10,
+        "name": "General Content",
+        "url": "https://api.beatport.com/v4/auxiliary/current-status/10/"
+      },
+      "encoded_date": "2024-11-26T02:12:59-07:00",
+      "exclusive": false,
+      "free_downloads": [],
+      "free_download_start_date": null,
+      "free_download_end_date": null,
+      "genre": {
+        "id": 13,
+        "name": "Psy-Trance",
+        "slug": "psy-trance",
+        "url": "https://api.beatport.com/v4/catalog/genres/13/"
+      },
+      "id": 19812224,
+      "image": {
+        "id": 41169833,
+        "uri": "https://geo-media.beatport.com/image_size/1500x250/ad6c145b-b160-4adb-8a44-97ce97e91ec3.png",
+        "dynamic_uri": "https://geo-media.beatport.com/image_size/{w}x{h}/ad6c145b-b160-4adb-8a44-97ce97e91ec3.png"
+      },
+      "is_available_for_streaming": true,
+      "is_explicit": false,
+      "isrc": "ES74F2400132",
+      "key": {
+        "camelot_number": 5,
+        "camelot_letter": "A",
+        "chord_type": {
+          "id": 1,
+          "name": "Minor",
+          "url": "https://api.beatport.com/v4/catalog/chord-types/1/"
+        },
+        "id": 5,
+        "is_sharp": false,
+        "is_flat": false,
+        "letter": "C",
+        "name": "C Minor",
+        "url": "https://api.beatport.com/v4/catalog/keys/5/"
+      },
+      "label_track_identifier": "6327861",
+      "length": "4:25",
+      "length_ms": 265519,
+      "mix_name": "Extended Mix",
+      "name": "Viento",
+      "new_release_date": "2024-12-19",
+      "pre_order": false,
+      "pre_order_date": "2024-11-21",
+      "price": {
+        "code": "USD",
+        "symbol": "$",
+        "value": 1.49,
+        "display": "$1.49"
+      },
+      "publish_date": "2024-12-19",
+      "release": {
+        "id": 4835823,
+        "name": "Viento EP",
+        "image": {
+          "id": 41169831,
+          "uri": "https://geo-media.beatport.com/image_size/1400x1400/365c8462-4756-4c65-9484-11ea04edd7de.jpg",
+          "dynamic_uri": "https://geo-media.beatport.com/image_size/{w}x{h}/365c8462-4756-4c65-9484-11ea04edd7de.jpg"
+        },
+        "label": {
+          "id": 103642,
+          "name": "ARTCORE RECORDS",
+          "image": {
+            "id": 38808704,
+            "uri": "https://geo-media.beatport.com/image_size/500x500/8243b7c4-56b3-489e-b077-9b68c9361500.jpg",
+            "dynamic_uri": "https://geo-media.beatport.com/image_size/{w}x{h}/8243b7c4-56b3-489e-b077-9b68c9361500.jpg"
+          },
+          "slug": "artcore-records"
+        },
+        "slug": "viento-ep"
+      },
+      "remixers": [],
+      "sale_type": {
+        "id": 1,
+        "name": "purchase",
+        "url": "https://api.beatport.com/v4/auxiliary/sale-types/1/"
+      },
+      "sample_url": "https://geo-samples.beatport.com/track/ad6c145b-b160-4adb-8a44-97ce97e91ec3.LOFI.mp3",
+      "sample_start_ms": 106208,
+      "sample_end_ms": 226208,
+      "slug": "viento",
+      "sub_genre": null,
+      "url": "https://api.beatport.com/v4/catalog/tracks/19812224/",
+      "is_hype": false
+    },
+    {
+      "artists": [
+        {
+          "id": 2932,
+          "image": {
+            "id": 5539565,
+            "uri": "https://geo-media.beatport.com/image_size/590x404/0dc61986-bccf-49d4-8fad-6b147ea8f327.jpg",
+            "dynamic_uri": "https://geo-media.beatport.com/image_size/{w}x{h}/0dc61986-bccf-49d4-8fad-6b147ea8f327.jpg"
+          },
+          "name": "Tristan",
+          "slug": "tristan",
+          "url": "https://api.beatport.com/v4/catalog/artists/2932/"
+        },
+        {
+          "id": 106369,
+          "image": {
+            "id": 32659567,
+            "uri": "https://geo-media.beatport.com/image_size/590x404/4244537e-51b8-4b4e-bd50-0b5a43903064.jpg",
+            "dynamic_uri": "https://geo-media.beatport.com/image_size/{w}x{h}/4244537e-51b8-4b4e-bd50-0b5a43903064.jpg"
+          },
+          "name": "Avalon",
+          "slug": "avalon",
+          "url": "https://api.beatport.com/v4/catalog/artists/106369/"
+        },
+        {
+          "id": 121302,
+          "image": {
+            "id": 35275713,
+            "uri": "https://geo-media.beatport.com/image_size/590x404/bf311b9c-e192-464b-ae2e-f1dfa9ac713e.jpg",
+            "dynamic_uri": "https://geo-media.beatport.com/image_size/{w}x{h}/bf311b9c-e192-464b-ae2e-f1dfa9ac713e.jpg"
+          },
+          "name": "Faders",
+          "slug": "faders",
+          "url": "https://api.beatport.com/v4/catalog/artists/121302/"
+        },
+        {
+          "id": 261765,
+          "image": {
+            "id": 16025517,
+            "uri": "https://geo-media.beatport.com/image_size/590x404/c8b7ff33-7e8c-4dea-b4ac-fb2e0c8b28c3.jpg",
+            "dynamic_uri": "https://geo-media.beatport.com/image_size/{w}x{h}/c8b7ff33-7e8c-4dea-b4ac-fb2e0c8b28c3.jpg"
+          },
+          "name": "Killerwatts",
+          "slug": "killerwatts",
+          "url": "https://api.beatport.com/v4/catalog/artists/261765/"
+        }
+      ],
+      "publish_status": "published",
+      "available_worldwide": true,
+      "bpm": 145,
+      "catalog_number": "nanodigi409",
+      "current_status": {
+        "id": 7,
+        "name": "Exclusive",
+        "url": "https://api.beatport.com/v4/auxiliary/current-status/7/"
+      },
+      "encoded_date": "2025-07-25T23:06:05-06:00",
+      "exclusive": true,
+      "free_downloads": [],
+      "free_download_start_date": null,
+      "free_download_end_date": null,
+      "genre": {
+        "id": 13,
+        "name": "Psy-Trance",
+        "slug": "psy-trance",
+        "url": "https://api.beatport.com/v4/catalog/genres/13/"
+      },
+      "id": 20824626,
+      "image": {
+        "id": 43198271,
+        "uri": "https://geo-media.beatport.com/image_size/1500x250/24fcfa51-e01f-4a3d-8e12-a3c6090f419a.png",
+        "dynamic_uri": "https://geo-media.beatport.com/image_size/{w}x{h}/24fcfa51-e01f-4a3d-8e12-a3c6090f419a.png"
+      },
+      "is_available_for_streaming": true,
+      "is_explicit": false,
+      "isrc": "GBKQU2578872",
+      "key": {
+        "camelot_number": 11,
+        "camelot_letter": "B",
+        "chord_type": {
+          "id": 2,
+          "name": "Major",
+          "url": "https://api.beatport.com/v4/catalog/chord-types/2/"
+        },
+        "id": 23,
+        "is_sharp": false,
+        "is_flat": false,
+        "letter": "A",
+        "name": "A Major",
+        "url": "https://api.beatport.com/v4/catalog/keys/23/"
+      },
+      "label_track_identifier": null,
+      "length": "8:26",
+      "length_ms": 506482,
+      "mix_name": "Electric Universe Remix",
+      "name": "Mushroom Song ",
+      "new_release_date": "2025-08-15",
+      "pre_order": false,
+      "pre_order_date": "2025-07-18",
+      "price": {
+        "code": "USD",
+        "symbol": "$",
+        "value": 2.49,
+        "display": "$2.49"
+      },
+      "publish_date": "2025-08-15",
+      "release": {
+        "id": 5198728,
+        "name": "Mushroom Song (Electric Universe Remix)",
+        "image": {
+          "id": 43198268,
+          "uri": "https://geo-media.beatport.com/image_size/1400x1400/1d93dcf4-3490-4c8f-b9cb-721c134258f6.jpg",
+          "dynamic_uri": "https://geo-media.beatport.com/image_size/{w}x{h}/1d93dcf4-3490-4c8f-b9cb-721c134258f6.jpg"
+        },
+        "label": {
+          "id": 2527,
+          "name": "Nano Records",
+          "image": {
+            "id": 9457545,
+            "uri": "https://geo-media.beatport.com/image_size/500x500/160fb48a-dc1b-4e52-a807-d1f49707cd29.jpg",
+            "dynamic_uri": "https://geo-media.beatport.com/image_size/{w}x{h}/160fb48a-dc1b-4e52-a807-d1f49707cd29.jpg"
+          },
+          "slug": "nano-records"
+        },
+        "slug": "mushroom-song-electric-universe-remix"
+      },
+      "remixers": [
+        {
+          "id": 10546,
+          "image": {
+            "id": 9533078,
+            "uri": "https://geo-media.beatport.com/image_size/590x404/7e20493a-c79b-46fa-b531-17eb371d70cb.jpg",
+            "dynamic_uri": "https://geo-media.beatport.com/image_size/{w}x{h}/7e20493a-c79b-46fa-b531-17eb371d70cb.jpg"
+          },
+          "name": "Electric Universe",
+          "slug": "electric-universe",
+          "url": "https://api.beatport.com/v4/catalog/artists/10546/"
+        }
+      ],
+      "sale_type": {
+        "id": 1,
+        "name": "purchase",
+        "url": "https://api.beatport.com/v4/auxiliary/sale-types/1/"
+      },
+      "sample_url": "https://geo-samples.beatport.com/track/24fcfa51-e01f-4a3d-8e12-a3c6090f419a.LOFI.mp3",
+      "sample_start_ms": 238000,
+      "sample_end_ms": 358000,
+      "slug": "mushroom-song",
+      "sub_genre": null,
+      "url": "https://api.beatport.com/v4/catalog/tracks/20824626/",
+      "is_hype": false
+    },
+    {
+      "artists": [
+        {
+          "id": 558556,
+          "image": {
+            "id": 19950159,
+            "uri": "https://geo-media.beatport.com/image_size/590x404/754f44a0-00a3-48b5-98ad-54523e0b8c11.jpg",
+            "dynamic_uri": "https://geo-media.beatport.com/image_size/{w}x{h}/754f44a0-00a3-48b5-98ad-54523e0b8c11.jpg"
+          },
+          "name": "Aura Vortex",
+          "slug": "aura-vortex",
+          "url": "https://api.beatport.com/v4/catalog/artists/558556/"
+        },
+        {
+          "id": 558557,
+          "image": {
+            "id": 40082971,
+            "uri": "https://geo-media.beatport.com/image_size/590x404/927eafed-f592-497e-aa1c-c2f042208123.jpg",
+            "dynamic_uri": "https://geo-media.beatport.com/image_size/{w}x{h}/927eafed-f592-497e-aa1c-c2f042208123.jpg"
+          },
+          "name": "Blazy",
+          "slug": "blazy",
+          "url": "https://api.beatport.com/v4/catalog/artists/558557/"
+        }
+      ],
+      "publish_status": "published",
+      "available_worldwide": false,
+      "bpm": 140,
+      "catalog_number": "26",
+      "current_status": {
+        "id": 8,
+        "name": "New Release",
+        "url": "https://api.beatport.com/v4/auxiliary/current-status/8/"
+      },
+      "encoded_date": "2025-07-01T08:57:06-06:00",
+      "exclusive": false,
+      "free_downloads": [],
+      "free_download_start_date": null,
+      "free_download_end_date": null,
+      "genre": {
+        "id": 13,
+        "name": "Psy-Trance",
+        "slug": "psy-trance",
+        "url": "https://api.beatport.com/v4/catalog/genres/13/"
+      },
+      "id": 20702276,
+      "image": {
+        "id": 43146497,
+        "uri": "https://geo-media.beatport.com/image_size/1500x250/29743057-8ff4-4a44-96e3-670d71b67c70.png",
+        "dynamic_uri": "https://geo-media.beatport.com/image_size/{w}x{h}/29743057-8ff4-4a44-96e3-670d71b67c70.png"
+      },
+      "is_available_for_streaming": true,
+      "is_explicit": false,
+      "isrc": "BKRAP2500004",
+      "key": {
+        "camelot_number": 8,
+        "camelot_letter": "A",
+        "chord_type": {
+          "id": 1,
+          "name": "Minor",
+          "url": "https://api.beatport.com/v4/catalog/chord-types/1/"
+        },
+        "id": 8,
+        "is_sharp": false,
+        "is_flat": false,
+        "letter": "A",
+        "name": "A Minor",
+        "url": "https://api.beatport.com/v4/catalog/keys/8/"
+      },
+      "label_track_identifier": null,
+      "length": "9:15",
+      "length_ms": 555428,
+      "mix_name": "Phaxe Remix",
+      "name": "Horizons",
+      "new_release_date": "2025-07-25",
+      "pre_order": false,
+      "pre_order_date": null,
+      "price": {
+        "code": "USD",
+        "symbol": "$",
+        "value": 1.69,
+        "display": "$1.69"
+      },
+      "publish_date": "2025-07-25",
+      "release": {
+        "id": 5156901,
+        "name": "Horizons (Phaxe Remix)",
+        "image": {
+          "id": 43146493,
+          "uri": "https://geo-media.beatport.com/image_size/1400x1400/b7b84e59-7777-4918-b476-f8329003b9e4.jpg",
+          "dynamic_uri": "https://geo-media.beatport.com/image_size/{w}x{h}/b7b84e59-7777-4918-b476-f8329003b9e4.jpg"
+        },
+        "label": {
+          "id": 104782,
+          "name": "MAGIC MOMENTS RECORDS",
+          "image": {
+            "id": 31680122,
+            "uri": "https://geo-media.beatport.com/image_size/500x500/e8e8674d-9146-4738-90a9-da1be2eee15c.jpg",
+            "dynamic_uri": "https://geo-media.beatport.com/image_size/{w}x{h}/e8e8674d-9146-4738-90a9-da1be2eee15c.jpg"
+          },
+          "slug": "magic-moments-records"
+        },
+        "slug": "horizons-phaxe-remix"
+      },
+      "remixers": [
+        {
+          "id": 63004,
+          "image": {
+            "id": 6697431,
+            "uri": "https://geo-media.beatport.com/image_size/590x404/11a11702-551d-453f-848a-64cd0677f61b.jpg",
+            "dynamic_uri": "https://geo-media.beatport.com/image_size/{w}x{h}/11a11702-551d-453f-848a-64cd0677f61b.jpg"
+          },
+          "name": "Phaxe",
+          "slug": "phaxe",
+          "url": "https://api.beatport.com/v4/catalog/artists/63004/"
+        }
+      ],
+      "sale_type": {
+        "id": 1,
+        "name": "purchase",
+        "url": "https://api.beatport.com/v4/auxiliary/sale-types/1/"
+      },
+      "sample_url": "https://geo-samples.beatport.com/track/29743057-8ff4-4a44-96e3-670d71b67c70.LOFI.mp3",
+      "sample_start_ms": 222171,
+      "sample_end_ms": 342171,
+      "slug": "horizons",
+      "sub_genre": null,
+      "url": "https://api.beatport.com/v4/catalog/tracks/20702276/",
+      "is_hype": false
+    },
+    {
+      "artists": [
+        {
+          "id": 6338,
+          "image": {
+            "id": 9982007,
+            "uri": "https://geo-media.beatport.com/image_size/590x404/6ad779fe-4232-4776-878b-28261959fc63.jpg",
+            "dynamic_uri": "https://geo-media.beatport.com/image_size/{w}x{h}/6ad779fe-4232-4776-878b-28261959fc63.jpg"
+          },
+          "name": "GMS",
+          "slug": "gms",
+          "url": "https://api.beatport.com/v4/catalog/artists/6338/"
+        },
+        {
+          "id": 7165,
+          "image": {
+            "id": 39680973,
+            "uri": "https://geo-media.beatport.com/image_size/590x404/ab0f9ccc-ea93-457c-acad-4e2091afaba1.jpg",
+            "dynamic_uri": "https://geo-media.beatport.com/image_size/{w}x{h}/ab0f9ccc-ea93-457c-acad-4e2091afaba1.jpg"
+          },
+          "name": "Ace Ventura",
+          "slug": "ace-ventura",
+          "url": "https://api.beatport.com/v4/catalog/artists/7165/"
+        }
+      ],
+      "publish_status": "published",
+      "available_worldwide": true,
+      "bpm": 142,
+      "catalog_number": "MD06",
+      "current_status": {
+        "id": 8,
+        "name": "New Release",
+        "url": "https://api.beatport.com/v4/auxiliary/current-status/8/"
+      },
+      "encoded_date": "2025-06-18T09:10:00-06:00",
+      "exclusive": false,
+      "free_downloads": [],
+      "free_download_start_date": null,
+      "free_download_end_date": null,
+      "genre": {
+        "id": 13,
+        "name": "Psy-Trance",
+        "slug": "psy-trance",
+        "url": "https://api.beatport.com/v4/catalog/genres/13/"
+      },
+      "id": 20650970,
+      "image": {
+        "id": 42881865,
+        "uri": "https://geo-media.beatport.com/image_size/1500x250/ecb0f1dd-429e-44b9-be85-01f8a2f515c2.png",
+        "dynamic_uri": "https://geo-media.beatport.com/image_size/{w}x{h}/ecb0f1dd-429e-44b9-be85-01f8a2f515c2.png"
+      },
+      "is_available_for_streaming": true,
+      "is_explicit": false,
+      "isrc": "GXBNP2509410",
+      "key": {
+        "camelot_number": 9,
+        "camelot_letter": "B",
+        "chord_type": {
+          "id": 2,
+          "name": "Major",
+          "url": "https://api.beatport.com/v4/catalog/chord-types/2/"
+        },
+        "id": 21,
+        "is_sharp": false,
+        "is_flat": false,
+        "letter": "G",
+        "name": "G Major",
+        "url": "https://api.beatport.com/v4/catalog/keys/21/"
+      },
+      "label_track_identifier": "211",
+      "length": "8:11",
+      "length_ms": 491637,
+      "mix_name": "Original mix",
+      "name": "Mindshift",
+      "new_release_date": "2025-07-07",
+      "pre_order": false,
+      "pre_order_date": "2025-06-23",
+      "price": {
+        "code": "USD",
+        "symbol": "$",
+        "value": 1.69,
+        "display": "$1.69"
+      },
+      "publish_date": "2025-07-07",
+      "release": {
+        "id": 5138466,
+        "name": "Mindshift",
+        "image": {
+          "id": 42887265,
+          "uri": "https://geo-media.beatport.com/image_size/1400x1400/e766ac29-5868-40c3-bccc-67a64f9e36a1.jpg",
+          "dynamic_uri": "https://geo-media.beatport.com/image_size/{w}x{h}/e766ac29-5868-40c3-bccc-67a64f9e36a1.jpg"
+        },
+        "label": {
+          "id": 127407,
+          "name": "Mutant Disco Records",
+          "image": {
+            "id": 41493170,
+            "uri": "https://geo-media.beatport.com/image_size/500x500/ce59d905-f1cb-4298-9964-4e30219f8777.jpg",
+            "dynamic_uri": "https://geo-media.beatport.com/image_size/{w}x{h}/ce59d905-f1cb-4298-9964-4e30219f8777.jpg"
+          },
+          "slug": "mutant-disco-records"
+        },
+        "slug": "mindshift"
+      },
+      "remixers": [],
+      "sale_type": {
+        "id": 1,
+        "name": "purchase",
+        "url": "https://api.beatport.com/v4/auxiliary/sale-types/1/"
+      },
+      "sample_url": "https://geo-samples.beatport.com/track/ecb0f1dd-429e-44b9-be85-01f8a2f515c2.LOFI.mp3",
+      "sample_start_ms": 196655,
+      "sample_end_ms": 316655,
+      "slug": "mindshift",
+      "sub_genre": null,
+      "url": "https://api.beatport.com/v4/catalog/tracks/20650970/",
+      "is_hype": false
+    },
+    {
+      "artists": [
+        {
+          "id": 7170,
+          "image": {
+            "id": 5539565,
+            "uri": "https://geo-media.beatport.com/image_size/590x404/0dc61986-bccf-49d4-8fad-6b147ea8f327.jpg",
+            "dynamic_uri": "https://geo-media.beatport.com/image_size/{w}x{h}/0dc61986-bccf-49d4-8fad-6b147ea8f327.jpg"
+          },
+          "name": "Zen Mechanics",
+          "slug": "zen-mechanics",
+          "url": "https://api.beatport.com/v4/catalog/artists/7170/"
+        },
+        {
+          "id": 39731,
+          "image": {
+            "id": 42576882,
+            "uri": "https://geo-media.beatport.com/image_size/590x404/47777410-43ad-4737-967c-1a4851f92f8b.jpg",
+            "dynamic_uri": "https://geo-media.beatport.com/image_size/{w}x{h}/47777410-43ad-4737-967c-1a4851f92f8b.jpg"
+          },
+          "name": "Protonica",
+          "slug": "protonica",
+          "url": "https://api.beatport.com/v4/catalog/artists/39731/"
+        }
+      ],
+      "publish_status": "published",
+      "available_worldwide": true,
+      "bpm": 140,
+      "catalog_number": "IBOGADIGITAL989",
+      "current_status": {
+        "id": 8,
+        "name": "New Release",
+        "url": "https://api.beatport.com/v4/auxiliary/current-status/8/"
+      },
+      "encoded_date": "2025-06-29T14:01:31-06:00",
+      "exclusive": false,
+      "free_downloads": [],
+      "free_download_start_date": null,
+      "free_download_end_date": null,
+      "genre": {
+        "id": 13,
+        "name": "Psy-Trance",
+        "slug": "psy-trance",
+        "url": "https://api.beatport.com/v4/catalog/genres/13/"
+      },
+      "id": 20693232,
+      "image": {
+        "id": 42964661,
+        "uri": "https://geo-media.beatport.com/image_size/1500x250/50249f34-03c7-4e2e-9d9c-c5f6d85bb9b5.png",
+        "dynamic_uri": "https://geo-media.beatport.com/image_size/{w}x{h}/50249f34-03c7-4e2e-9d9c-c5f6d85bb9b5.png"
+      },
+      "is_available_for_streaming": true,
+      "is_explicit": false,
+      "isrc": "DKZVA2500097",
+      "key": {
+        "camelot_number": 12,
+        "camelot_letter": "B",
+        "chord_type": {
+          "id": 2,
+          "name": "Major",
+          "url": "https://api.beatport.com/v4/catalog/chord-types/2/"
+        },
+        "id": 24,
+        "is_sharp": false,
+        "is_flat": false,
+        "letter": "E",
+        "name": "E Major",
+        "url": "https://api.beatport.com/v4/catalog/keys/24/"
+      },
+      "label_track_identifier": "9056",
+      "length": "9:36",
+      "length_ms": 576086,
+      "mix_name": "Original mix",
+      "name": "Flowstate",
+      "new_release_date": "2025-07-14",
+      "pre_order": false,
+      "pre_order_date": "2025-06-30",
+      "price": {
+        "code": "USD",
+        "symbol": "$",
+        "value": 1.69,
+        "display": "$1.69"
+      },
+      "publish_date": "2025-07-14",
+      "release": {
+        "id": 5153944,
+        "name": "Flowstate",
+        "image": {
+          "id": 42964630,
+          "uri": "https://geo-media.beatport.com/image_size/1400x1400/8c2ae1ea-c0ae-4abd-8dd8-574aa9bbadfd.jpg",
+          "dynamic_uri": "https://geo-media.beatport.com/image_size/{w}x{h}/8c2ae1ea-c0ae-4abd-8dd8-574aa9bbadfd.jpg"
+        },
+        "label": {
+          "id": 919,
+          "name": "Iboga Records",
+          "image": {
+            "id": 7448549,
+            "uri": "https://geo-media.beatport.com/image_size/500x500/ab8b74e3-57cd-4fe3-a382-c34f04fb7f49.jpg",
+            "dynamic_uri": "https://geo-media.beatport.com/image_size/{w}x{h}/ab8b74e3-57cd-4fe3-a382-c34f04fb7f49.jpg"
+          },
+          "slug": "iboga-records"
+        },
+        "slug": "flowstate"
+      },
+      "remixers": [],
+      "sale_type": {
+        "id": 1,
+        "name": "purchase",
+        "url": "https://api.beatport.com/v4/auxiliary/sale-types/1/"
+      },
+      "sample_url": "https://geo-samples.beatport.com/track/50249f34-03c7-4e2e-9d9c-c5f6d85bb9b5.LOFI.mp3",
+      "sample_start_ms": 230434,
+      "sample_end_ms": 350434,
+      "slug": "flowstate",
+      "sub_genre": null,
+      "url": "https://api.beatport.com/v4/catalog/tracks/20693232/",
+      "is_hype": false
+    },
+    {
+      "artists": [
+        {
+          "id": 123787,
+          "image": {
+            "id": 31475646,
+            "uri": "https://geo-media.beatport.com/image_size/590x404/f0dbf43f-3923-41e9-8e8c-797248d02f81.jpg",
+            "dynamic_uri": "https://geo-media.beatport.com/image_size/{w}x{h}/f0dbf43f-3923-41e9-8e8c-797248d02f81.jpg"
+          },
+          "name": "Enrico Sangiuliano",
+          "slug": "enrico-sangiuliano",
+          "url": "https://api.beatport.com/v4/catalog/artists/123787/"
+        }
+      ],
+      "publish_status": "published",
+      "available_worldwide": false,
+      "bpm": 108,
+      "catalog_number": "NTX001",
+      "current_status": {
+        "id": 8,
+        "name": "New Release",
+        "url": "https://api.beatport.com/v4/auxiliary/current-status/8/"
+      },
+      "encoded_date": "2025-06-16T09:01:46-06:00",
+      "exclusive": false,
+      "free_downloads": [],
+      "free_download_start_date": null,
+      "free_download_end_date": null,
+      "genre": {
+        "id": 13,
+        "name": "Psy-Trance",
+        "slug": "psy-trance",
+        "url": "https://api.beatport.com/v4/catalog/genres/13/"
+      },
+      "id": 20639814,
+      "image": {
+        "id": 42862685,
+        "uri": "https://geo-media.beatport.com/image_size/1500x250/7b61a018-0689-41e0-962f-0ad2c738b6cd.png",
+        "dynamic_uri": "https://geo-media.beatport.com/image_size/{w}x{h}/7b61a018-0689-41e0-962f-0ad2c738b6cd.png"
+      },
+      "is_available_for_streaming": true,
+      "is_explicit": false,
+      "isrc": "BE4JP2592009",
+      "key": {
+        "camelot_number": 6,
+        "camelot_letter": "B",
+        "chord_type": {
+          "id": 2,
+          "name": "Major",
+          "url": "https://api.beatport.com/v4/catalog/chord-types/2/"
+        },
+        "id": 18,
+        "is_sharp": false,
+        "is_flat": true,
+        "letter": "B",
+        "name": "Bb Major",
+        "url": "https://api.beatport.com/v4/catalog/keys/18/"
+      },
+      "label_track_identifier": null,
+      "length": "6:56",
+      "length_ms": 416666,
+      "mix_name": "Avalon & Tristan Remix",
+      "name": "The Techno Code",
+      "new_release_date": "2025-07-03",
+      "pre_order": false,
+      "pre_order_date": "2025-06-24",
+      "price": {
+        "code": "USD",
+        "symbol": "$",
+        "value": 1.69,
+        "display": "$1.69"
+      },
+      "publish_date": "2025-07-03",
+      "release": {
+        "id": 5134336,
+        "name": "The Techno Code (Remixes)",
+        "image": {
+          "id": 42862673,
+          "uri": "https://geo-media.beatport.com/image_size/1400x1400/75f258ce-b4c0-4ff1-a0f0-707e0f58dc5e.jpg",
+          "dynamic_uri": "https://geo-media.beatport.com/image_size/{w}x{h}/75f258ce-b4c0-4ff1-a0f0-707e0f58dc5e.jpg"
+        },
+        "label": {
+          "id": 103445,
+          "name": "NINETOZERO",
+          "image": {
+            "id": 31473697,
+            "uri": "https://geo-media.beatport.com/image_size/500x500/30f4dd07-29d3-49e0-90e1-b86c4aec08b4.jpg",
+            "dynamic_uri": "https://geo-media.beatport.com/image_size/{w}x{h}/30f4dd07-29d3-49e0-90e1-b86c4aec08b4.jpg"
+          },
+          "slug": "ninetozero"
+        },
+        "slug": "the-techno-code-remixes"
+      },
+      "remixers": [
+        {
+          "id": 2932,
+          "image": {
+            "id": 5539565,
+            "uri": "https://geo-media.beatport.com/image_size/590x404/0dc61986-bccf-49d4-8fad-6b147ea8f327.jpg",
+            "dynamic_uri": "https://geo-media.beatport.com/image_size/{w}x{h}/0dc61986-bccf-49d4-8fad-6b147ea8f327.jpg"
+          },
+          "name": "Tristan",
+          "slug": "tristan",
+          "url": "https://api.beatport.com/v4/catalog/artists/2932/"
+        },
+        {
+          "id": 106369,
+          "image": {
+            "id": 32659567,
+            "uri": "https://geo-media.beatport.com/image_size/590x404/4244537e-51b8-4b4e-bd50-0b5a43903064.jpg",
+            "dynamic_uri": "https://geo-media.beatport.com/image_size/{w}x{h}/4244537e-51b8-4b4e-bd50-0b5a43903064.jpg"
+          },
+          "name": "Avalon",
+          "slug": "avalon",
+          "url": "https://api.beatport.com/v4/catalog/artists/106369/"
+        }
+      ],
+      "sale_type": {
+        "id": 1,
+        "name": "purchase",
+        "url": "https://api.beatport.com/v4/auxiliary/sale-types/1/"
+      },
+      "sample_url": "https://geo-samples.beatport.com/track/7b61a018-0689-41e0-962f-0ad2c738b6cd.LOFI.mp3",
+      "sample_start_ms": 299000,
+      "sample_end_ms": 416666,
+      "slug": "the-techno-code",
+      "sub_genre": null,
+      "url": "https://api.beatport.com/v4/catalog/tracks/20639814/",
+      "is_hype": false
+    },
+    {
+      "artists": [
+        {
+          "id": 77077,
+          "image": {
+            "id": 15929610,
+            "uri": "https://geo-media.beatport.com/image_size/590x404/4ad82874-15be-4399-8243-97e68e257cd7.jpg",
+            "dynamic_uri": "https://geo-media.beatport.com/image_size/{w}x{h}/4ad82874-15be-4399-8243-97e68e257cd7.jpg"
+          },
+          "name": "Sonic Species",
+          "slug": "sonic-species",
+          "url": "https://api.beatport.com/v4/catalog/artists/77077/"
+        }
+      ],
+      "publish_status": "published",
+      "available_worldwide": false,
+      "bpm": 142,
+      "catalog_number": "SHAMAN135",
+      "current_status": {
+        "id": 8,
+        "name": "New Release",
+        "url": "https://api.beatport.com/v4/auxiliary/current-status/8/"
+      },
+      "encoded_date": "2025-07-18T10:54:14-06:00",
+      "exclusive": false,
+      "free_downloads": [],
+      "free_download_start_date": null,
+      "free_download_end_date": null,
+      "genre": {
+        "id": 13,
+        "name": "Psy-Trance",
+        "slug": "psy-trance",
+        "url": "https://api.beatport.com/v4/catalog/genres/13/"
+      },
+      "id": 20782218,
+      "image": {
+        "id": 43124456,
+        "uri": "https://geo-media.beatport.com/image_size/1500x250/99ea5f0d-c1b0-4a93-9454-4fda84c7ef56.png",
+        "dynamic_uri": "https://geo-media.beatport.com/image_size/{w}x{h}/99ea5f0d-c1b0-4a93-9454-4fda84c7ef56.png"
+      },
+      "is_available_for_streaming": true,
+      "is_explicit": false,
+      "isrc": "UKR6V2581756",
+      "key": {
+        "camelot_number": 6,
+        "camelot_letter": "B",
+        "chord_type": {
+          "id": 2,
+          "name": "Major",
+          "url": "https://api.beatport.com/v4/catalog/chord-types/2/"
+        },
+        "id": 25,
+        "is_sharp": true,
+        "is_flat": false,
+        "letter": "A",
+        "name": "A# Major",
+        "url": "https://api.beatport.com/v4/catalog/keys/25/"
+      },
+      "label_track_identifier": null,
+      "length": "6:05",
+      "length_ms": 365070,
+      "mix_name": "Original Mix",
+      "name": "Light Beings",
+      "new_release_date": "2025-08-11",
+      "pre_order": false,
+      "pre_order_date": "2025-08-04",
+      "price": {
+        "code": "USD",
+        "symbol": "$",
+        "value": 1.69,
+        "display": "$1.69"
+      },
+      "publish_date": "2025-08-11",
+      "release": {
+        "id": 5185687,
+        "name": "Light Beings",
+        "image": {
+          "id": 43124450,
+          "uri": "https://geo-media.beatport.com/image_size/1400x1400/22d26ee9-b574-45ff-bf5e-8020a2838c3d.jpg",
+          "dynamic_uri": "https://geo-media.beatport.com/image_size/{w}x{h}/22d26ee9-b574-45ff-bf5e-8020a2838c3d.jpg"
+        },
+        "label": {
+          "id": 76464,
+          "name": "Shamanic Tales",
+          "image": {
+            "id": 21384987,
+            "uri": "https://geo-media.beatport.com/image_size/500x500/424f7cc6-48eb-4563-8adc-daaa3ab448d6.jpg",
+            "dynamic_uri": "https://geo-media.beatport.com/image_size/{w}x{h}/424f7cc6-48eb-4563-8adc-daaa3ab448d6.jpg"
+          },
+          "slug": "shamanic-tales"
+        },
+        "slug": "light-beings"
+      },
+      "remixers": [],
+      "sale_type": {
+        "id": 1,
+        "name": "purchase",
+        "url": "https://api.beatport.com/v4/auxiliary/sale-types/1/"
+      },
+      "sample_url": "https://geo-samples.beatport.com/track/99ea5f0d-c1b0-4a93-9454-4fda84c7ef56.LOFI.mp3",
+      "sample_start_ms": 146028,
+      "sample_end_ms": 266028,
+      "slug": "light-beings",
+      "sub_genre": null,
+      "url": "https://api.beatport.com/v4/catalog/tracks/20782218/",
+      "is_hype": false
+    },
+    {
+      "artists": [
+        {
+          "id": 2932,
+          "image": {
+            "id": 5539565,
+            "uri": "https://geo-media.beatport.com/image_size/590x404/0dc61986-bccf-49d4-8fad-6b147ea8f327.jpg",
+            "dynamic_uri": "https://geo-media.beatport.com/image_size/{w}x{h}/0dc61986-bccf-49d4-8fad-6b147ea8f327.jpg"
+          },
+          "name": "Tristan",
+          "slug": "tristan",
+          "url": "https://api.beatport.com/v4/catalog/artists/2932/"
+        },
+        {
+          "id": 106369,
+          "image": {
+            "id": 32659567,
+            "uri": "https://geo-media.beatport.com/image_size/590x404/4244537e-51b8-4b4e-bd50-0b5a43903064.jpg",
+            "dynamic_uri": "https://geo-media.beatport.com/image_size/{w}x{h}/4244537e-51b8-4b4e-bd50-0b5a43903064.jpg"
+          },
+          "name": "Avalon",
+          "slug": "avalon",
+          "url": "https://api.beatport.com/v4/catalog/artists/106369/"
+        },
+        {
+          "id": 261765,
+          "image": {
+            "id": 16025517,
+            "uri": "https://geo-media.beatport.com/image_size/590x404/c8b7ff33-7e8c-4dea-b4ac-fb2e0c8b28c3.jpg",
+            "dynamic_uri": "https://geo-media.beatport.com/image_size/{w}x{h}/c8b7ff33-7e8c-4dea-b4ac-fb2e0c8b28c3.jpg"
+          },
+          "name": "Killerwatts",
+          "slug": "killerwatts",
+          "url": "https://api.beatport.com/v4/catalog/artists/261765/"
+        },
+        {
+          "id": 730452,
+          "image": {
+            "id": 33154869,
+            "uri": "https://geo-media.beatport.com/image_size/590x404/c655cae6-5b30-4e28-9aa7-0d4bd05e5379.jpg",
+            "dynamic_uri": "https://geo-media.beatport.com/image_size/{w}x{h}/c655cae6-5b30-4e28-9aa7-0d4bd05e5379.jpg"
+          },
+          "name": "Alienatic",
+          "slug": "alienatic",
+          "url": "https://api.beatport.com/v4/catalog/artists/730452/"
+        }
+      ],
+      "publish_status": "published",
+      "available_worldwide": false,
+      "bpm": 145,
+      "catalog_number": "NANODIGI403",
+      "current_status": {
+        "id": 10,
+        "name": "General Content",
+        "url": "https://api.beatport.com/v4/auxiliary/current-status/10/"
+      },
+      "encoded_date": "2025-06-07T09:48:16-06:00",
+      "exclusive": false,
+      "free_downloads": [],
+      "free_download_start_date": null,
+      "free_download_end_date": null,
+      "genre": {
+        "id": 13,
+        "name": "Psy-Trance",
+        "slug": "psy-trance",
+        "url": "https://api.beatport.com/v4/catalog/genres/13/"
+      },
+      "id": 20607880,
+      "image": {
+        "id": 42790810,
+        "uri": "https://geo-media.beatport.com/image_size/1500x250/7fbdf1b8-191b-4871-84d0-e8e58eeb76d2.png",
+        "dynamic_uri": "https://geo-media.beatport.com/image_size/{w}x{h}/7fbdf1b8-191b-4871-84d0-e8e58eeb76d2.png"
+      },
+      "is_available_for_streaming": true,
+      "is_explicit": false,
+      "isrc": "GBKQU2554300",
+      "key": {
+        "camelot_number": 9,
+        "camelot_letter": "B",
+        "chord_type": {
+          "id": 2,
+          "name": "Major",
+          "url": "https://api.beatport.com/v4/catalog/chord-types/2/"
+        },
+        "id": 21,
+        "is_sharp": false,
+        "is_flat": false,
+        "letter": "G",
+        "name": "G Major",
+        "url": "https://api.beatport.com/v4/catalog/keys/21/"
+      },
+      "label_track_identifier": "6687894",
+      "length": "7:28",
+      "length_ms": 448767,
+      "mix_name": "GMS Remix",
+      "name": "Freaky Family",
+      "new_release_date": "2025-06-20",
+      "pre_order": false,
+      "pre_order_date": "2025-05-23",
+      "price": {
+        "code": "USD",
+        "symbol": "$",
+        "value": 1.49,
+        "display": "$1.49"
+      },
+      "publish_date": "2025-06-20",
+      "release": {
+        "id": 5122139,
+        "name": "Freaky Family (GMS Remix)",
+        "image": {
+          "id": 42790787,
+          "uri": "https://geo-media.beatport.com/image_size/1400x1400/a87a3f34-f6b8-41bc-b2f8-72392d1d96ac.jpg",
+          "dynamic_uri": "https://geo-media.beatport.com/image_size/{w}x{h}/a87a3f34-f6b8-41bc-b2f8-72392d1d96ac.jpg"
+        },
+        "label": {
+          "id": 2527,
+          "name": "Nano Records",
+          "image": {
+            "id": 9457545,
+            "uri": "https://geo-media.beatport.com/image_size/500x500/160fb48a-dc1b-4e52-a807-d1f49707cd29.jpg",
+            "dynamic_uri": "https://geo-media.beatport.com/image_size/{w}x{h}/160fb48a-dc1b-4e52-a807-d1f49707cd29.jpg"
+          },
+          "slug": "nano-records"
+        },
+        "slug": "freaky-family-gms-remix"
+      },
+      "remixers": [
+        {
+          "id": 6338,
+          "image": {
+            "id": 9982007,
+            "uri": "https://geo-media.beatport.com/image_size/590x404/6ad779fe-4232-4776-878b-28261959fc63.jpg",
+            "dynamic_uri": "https://geo-media.beatport.com/image_size/{w}x{h}/6ad779fe-4232-4776-878b-28261959fc63.jpg"
+          },
+          "name": "GMS",
+          "slug": "gms",
+          "url": "https://api.beatport.com/v4/catalog/artists/6338/"
+        }
+      ],
+      "sale_type": {
+        "id": 1,
+        "name": "purchase",
+        "url": "https://api.beatport.com/v4/auxiliary/sale-types/1/"
+      },
+      "sample_url": "https://geo-samples.beatport.com/track/7fbdf1b8-191b-4871-84d0-e8e58eeb76d2.LOFI.mp3",
+      "sample_start_ms": 179507,
+      "sample_end_ms": 299507,
+      "slug": "freaky-family",
+      "sub_genre": null,
+      "url": "https://api.beatport.com/v4/catalog/tracks/20607880/",
+      "is_hype": false
+    },
+    {
+      "artists": [
+        {
+          "id": 2228,
+          "image": {
+            "id": 31285225,
+            "uri": "https://geo-media.beatport.com/image_size/590x404/6524db02-66e7-45e4-9553-53e5e5c6f559.jpg",
+            "dynamic_uri": "https://geo-media.beatport.com/image_size/{w}x{h}/6524db02-66e7-45e4-9553-53e5e5c6f559.jpg"
+          },
+          "name": "Armin van Buuren",
+          "slug": "armin-van-buuren",
+          "url": "https://api.beatport.com/v4/catalog/artists/2228/"
+        },
+        {
+          "id": 187949,
+          "image": {
+            "id": 39687838,
+            "uri": "https://geo-media.beatport.com/image_size/590x404/9ef7c723-9e20-4e25-880f-e5e6a0d7d8ea.jpg",
+            "dynamic_uri": "https://geo-media.beatport.com/image_size/{w}x{h}/9ef7c723-9e20-4e25-880f-e5e6a0d7d8ea.jpg"
+          },
+          "name": "Indira Paganotto",
+          "slug": "indira-paganotto",
+          "url": "https://api.beatport.com/v4/catalog/artists/187949/"
+        }
+      ],
+      "publish_status": "published",
+      "available_worldwide": false,
+      "bpm": 146,
+      "catalog_number": "ARMAS3342",
+      "current_status": {
+        "id": 10,
+        "name": "General Content",
+        "url": "https://api.beatport.com/v4/auxiliary/current-status/10/"
+      },
+      "encoded_date": "2025-05-26T12:31:05-06:00",
+      "exclusive": false,
+      "free_downloads": [],
+      "free_download_start_date": null,
+      "free_download_end_date": null,
+      "genre": {
+        "id": 13,
+        "name": "Psy-Trance",
+        "slug": "psy-trance",
+        "url": "https://api.beatport.com/v4/catalog/genres/13/"
+      },
+      "id": 20545642,
+      "image": {
+        "id": 42680690,
+        "uri": "https://geo-media.beatport.com/image_size/1500x250/bf767f38-f75b-4ba6-b704-c3e13aaebd15.png",
+        "dynamic_uri": "https://geo-media.beatport.com/image_size/{w}x{h}/bf767f38-f75b-4ba6-b704-c3e13aaebd15.png"
+      },
+      "is_available_for_streaming": true,
+      "is_explicit": false,
+      "isrc": "NLF712503048",
+      "key": {
+        "camelot_number": 5,
+        "camelot_letter": "B",
+        "chord_type": {
+          "id": 2,
+          "name": "Major",
+          "url": "https://api.beatport.com/v4/catalog/chord-types/2/"
+        },
+        "id": 17,
+        "is_sharp": false,
+        "is_flat": true,
+        "letter": "E",
+        "name": "Eb Major",
+        "url": "https://api.beatport.com/v4/catalog/keys/17/"
+      },
+      "label_track_identifier": "1004225643077",
+      "length": "6:38",
+      "length_ms": 398896,
+      "mix_name": "Extended Mix",
+      "name": "Dragon",
+      "new_release_date": "2025-06-13",
+      "pre_order": false,
+      "pre_order_date": "2025-06-04",
+      "price": {
+        "code": "USD",
+        "symbol": "$",
+        "value": 1.49,
+        "display": "$1.49"
+      },
+      "publish_date": "2025-06-13",
+      "release": {
+        "id": 5100493,
+        "name": "Dragon",
+        "image": {
+          "id": 42680689,
+          "uri": "https://geo-media.beatport.com/image_size/1400x1400/82809055-2897-4889-a21b-59b3a4c731a0.jpg",
+          "dynamic_uri": "https://geo-media.beatport.com/image_size/{w}x{h}/82809055-2897-4889-a21b-59b3a4c731a0.jpg"
+        },
+        "label": {
+          "id": 33099,
+          "name": "Armada Music",
+          "image": {
+            "id": 25600237,
+            "uri": "https://geo-media.beatport.com/image_size/500x500/c375f726-e442-49b9-85f8-4b76d33e9c94.jpg",
+            "dynamic_uri": "https://geo-media.beatport.com/image_size/{w}x{h}/c375f726-e442-49b9-85f8-4b76d33e9c94.jpg"
+          },
+          "slug": "armada-music"
+        },
+        "slug": "dragon"
+      },
+      "remixers": [],
+      "sale_type": {
+        "id": 1,
+        "name": "purchase",
+        "url": "https://api.beatport.com/v4/auxiliary/sale-types/1/"
+      },
+      "sample_url": "https://geo-samples.beatport.com/track/bf767f38-f75b-4ba6-b704-c3e13aaebd15.LOFI.mp3",
+      "sample_start_ms": 159558,
+      "sample_end_ms": 279558,
+      "slug": "dragon",
+      "sub_genre": null,
+      "url": "https://api.beatport.com/v4/catalog/tracks/20545642/",
+      "is_hype": false
+    },
+    {
+      "artists": [
+        {
+          "id": 271419,
+          "image": {
+            "id": 38869993,
+            "uri": "https://geo-media.beatport.com/image_size/590x404/2a225b8c-d0f5-409e-999d-5396525c48c8.jpg",
+            "dynamic_uri": "https://geo-media.beatport.com/image_size/{w}x{h}/2a225b8c-d0f5-409e-999d-5396525c48c8.jpg"
+          },
+          "name": "Omiki",
+          "slug": "omiki",
+          "url": "https://api.beatport.com/v4/catalog/artists/271419/"
+        }
+      ],
+      "publish_status": "published",
+      "available_worldwide": true,
+      "bpm": 140,
+      "catalog_number": "SPN1DIGI670",
+      "current_status": {
+        "id": 10,
+        "name": "General Content",
+        "url": "https://api.beatport.com/v4/auxiliary/current-status/10/"
+      },
+      "encoded_date": "2021-04-02T01:06:40-06:00",
+      "exclusive": false,
+      "free_downloads": [],
+      "free_download_start_date": null,
+      "free_download_end_date": null,
+      "genre": {
+        "id": 13,
+        "name": "Psy-Trance",
+        "slug": "psy-trance",
+        "url": "https://api.beatport.com/v4/catalog/genres/13/"
+      },
+      "id": 15150456,
+      "image": {
+        "id": 28301311,
+        "uri": "https://geo-media.beatport.com/image_size/1500x250/34524cf4-954b-4983-aa0d-c19b05149cc9.png",
+        "dynamic_uri": "https://geo-media.beatport.com/image_size/{w}x{h}/34524cf4-954b-4983-aa0d-c19b05149cc9.png"
+      },
+      "is_available_for_streaming": true,
+      "is_explicit": false,
+      "isrc": "DEKC42100028",
+      "key": {
+        "camelot_number": 7,
+        "camelot_letter": "B",
+        "chord_type": {
+          "id": 2,
+          "name": "Major",
+          "url": "https://api.beatport.com/v4/catalog/chord-types/2/"
+        },
+        "id": 19,
+        "is_sharp": false,
+        "is_flat": false,
+        "letter": "F",
+        "name": "F Major",
+        "url": "https://api.beatport.com/v4/catalog/keys/19/"
+      },
+      "label_track_identifier": "6872796",
+      "length": "6:58",
+      "length_ms": 418714,
+      "mix_name": "Phaxe Remix",
+      "name": "Na Le",
+      "new_release_date": "2021-04-16",
+      "pre_order": false,
+      "pre_order_date": null,
+      "price": {
+        "code": "USD",
+        "symbol": "$",
+        "value": 1.49,
+        "display": "$1.49"
+      },
+      "publish_date": "2021-04-16",
+      "release": {
+        "id": 3353041,
+        "name": "Na Le (Phaxe Remix)",
+        "image": {
+          "id": 28301189,
+          "uri": "https://geo-media.beatport.com/image_size/1400x1400/eeed2d42-ab12-4963-b1cb-982f0b19137e.jpg",
+          "dynamic_uri": "https://geo-media.beatport.com/image_size/{w}x{h}/eeed2d42-ab12-4963-b1cb-982f0b19137e.jpg"
+        },
+        "label": {
+          "id": 9436,
+          "name": "Spin Twist Records",
+          "image": {
+            "id": 4697396,
+            "uri": "https://geo-media.beatport.com/image_size/500x500/03bc3141-24c7-4d27-944c-1769d1b0a2e4.jpg",
+            "dynamic_uri": "https://geo-media.beatport.com/image_size/{w}x{h}/03bc3141-24c7-4d27-944c-1769d1b0a2e4.jpg"
+          },
+          "slug": "spin-twist-records"
+        },
+        "slug": "na-le-phaxe-remix"
+      },
+      "remixers": [
+        {
+          "id": 63004,
+          "image": {
+            "id": 6697431,
+            "uri": "https://geo-media.beatport.com/image_size/590x404/11a11702-551d-453f-848a-64cd0677f61b.jpg",
+            "dynamic_uri": "https://geo-media.beatport.com/image_size/{w}x{h}/11a11702-551d-453f-848a-64cd0677f61b.jpg"
+          },
+          "name": "Phaxe",
+          "slug": "phaxe",
+          "url": "https://api.beatport.com/v4/catalog/artists/63004/"
+        }
+      ],
+      "sale_type": {
+        "id": 1,
+        "name": "purchase",
+        "url": "https://api.beatport.com/v4/auxiliary/sale-types/1/"
+      },
+      "sample_url": "https://geo-samples.beatport.com/track/34524cf4-954b-4983-aa0d-c19b05149cc9.LOFI.mp3",
+      "sample_start_ms": 167486,
+      "sample_end_ms": 287486,
+      "slug": "na-le",
+      "sub_genre": null,
+      "url": "https://api.beatport.com/v4/catalog/tracks/15150456/",
+      "is_hype": false
+    }
+  ]
+}
