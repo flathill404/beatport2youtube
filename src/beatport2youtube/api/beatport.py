@@ -137,87 +137,17 @@ class BeatportClient:
                 f"An error occurred during the request: {e}"
             ) from e
 
-    # --- Public API Methods ---
-
-    def search(
-        self, q: str, search_type: str = "track", page: int = 1, per_page: int = 50
-    ) -> dict[str, Any]:
-        """
-        Search for items on Beatport.
-
-        Args:
-            q: The search query.
-            search_type: The type of item to search for.
-                         Valid types: 'track', 'release', 'artist', 'label', 'chart'.
-            page: The page number of the results.
-            per_page: The number of results per page (max 150).
-
-        Returns:
-            A dictionary containing the search results.
-        """
-        params = {"q": q, "type": search_type, "page": page, "per_page": per_page}
-        return self._request("GET", "catalog/search/", params=params)
-
-    def get_track(self, track_id: int) -> dict[str, Any]:
-        """
-        Get details for a specific track.
-
-        Args:
-            track_id: The ID of the track.
-
-        Returns:
-            A dictionary containing the track details.
-        """
-        return self._request("GET", f"catalog/tracks/{track_id}/")
-
-    def get_release(self, release_id: int) -> dict[str, Any]:
-        """
-        Get details for a specific release.
-
-        Args:
-            release_id: The ID of the release.
-
-        Returns:
-            A dictionary containing the release details.
-        """
-        return self._request("GET", f"catalog/releases/{release_id}/")
-
-    def get_artist(self, artist_id: int) -> dict[str, Any]:
-        """
-        Get details for a specific artist.
-
-        Args:
-            artist_id: The ID of the artist.
-
-        Returns:
-            A dictionary containing the artist details.
-        """
-        return self._request("GET", f"catalog/artists/{artist_id}/")
-
-    def get_label(self, label_id: int) -> dict[str, Any]:
-        """
-        Get details for a specific label.
-
-        Args:
-            label_id: The ID of the label.
-
-        Returns:
-            A dictionary containing the label details.
-        """
-        return self._request("GET", f"catalog/labels/{label_id}/")
-
-    def get_genres(self) -> dict[str, Any]:
-        """
-        Get a list of available genres.
-
-        Returns:
-            A dictionary containing the list of genres.
-        """
-
-        return self._request("GET", "catalog/genres/")
-
-    def get_genre(self, genre_id: int) -> dict[str, Any]:
-        return self._request("GET", f"catalog/genres/{genre_id}/")
-
     def get_genre_topN(self, genre_id: int, num: int = 100) -> dict[str, Any]:
-        return self._request("GET", f"catalog/genres/{genre_id}/top/{num}?per_page={num}")
+        """
+        Get the top N tracks for a specific genre.
+
+        Args:
+            genre_id: The ID of the genre.
+            num: The number of top tracks to retrieve (default is 100).
+
+        Returns:
+            A dictionary containing the top N tracks for the genre.
+        """
+        return self._request(
+            "GET", f"catalog/genres/{genre_id}/top/{num}?per_page={num}"
+        )
