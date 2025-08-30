@@ -47,6 +47,7 @@ class BeatportClient:
         self.session = requests.Session()
         self.access_token: str | None = None
 
+        # todo: wip
         if True:
             self.access_token = os.environ.get("BEATPORT_ACCESS_TOKEN")
             self.session.headers.update(

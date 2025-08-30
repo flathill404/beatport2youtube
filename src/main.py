@@ -21,7 +21,8 @@ def main():
         client = BeatportClient(client_id=client_id, client_secret=client_secret)
         print("Authentication successful.")
 
-        print(json.dumps(client.get_genre_topN(13, 10)))
+        # 13 is psytrance
+        print(json.dumps(client.get_genre_topN(13, 100)))
 
     except (ValueError, BeatportClientError) as e:
         print(f"\nAn error occurred: {e}")
