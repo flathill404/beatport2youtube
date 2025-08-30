@@ -17,9 +17,7 @@ def main():
         return
 
     try:
-        print("Initializing Beatport client...")
         client = BeatportClient(client_id=client_id, client_secret=client_secret)
-        print("Authentication successful.")
 
         # 13 is psytrance
         print(json.dumps(client.get_genre_topN(13, 100)))

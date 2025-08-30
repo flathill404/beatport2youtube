@@ -220,4 +220,4 @@ class BeatportClient:
         return self._request("GET", f"catalog/genres/{genre_id}/")
 
     def get_genre_topN(self, genre_id: int, num: int = 100) -> dict[str, Any]:
-        return self._request("GET", f"catalog/genres/{genre_id}/top/{num}")
+        return self._request("GET", f"catalog/genres/{genre_id}/top/{num}?per_page={num}")
