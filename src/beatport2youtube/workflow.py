@@ -47,6 +47,7 @@ def step2():
         playlist_id = os.environ.get("YOUTUBE_PLAYLIST_ID") or "dummy"
 
         # Get the playlist items
+        # todo: get only the first 5 items?
         playlist_items = (
             youtube_service.playlistItems()
             .list(part="snippet", playlistId=playlist_id)
@@ -57,7 +58,9 @@ def step2():
 
         # Delete current playlist items
         for item in playlist_items["items"]:
+            # bulk delete is not supported?
             youtube_service.playlistItems().delete(id=item["id"]).execute()
+            time.sleep(1)
 
         # Update playlist description
         current_time = datetime.datetime.now(datetime.timezone.utc).isoformat()
