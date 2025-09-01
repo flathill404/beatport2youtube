@@ -50,7 +50,7 @@ def step2():
         # todo: get only the first 5 items?
         playlist_items = (
             youtube_service.playlistItems()
-            .list(part="snippet", playlistId=playlist_id)
+            .list(part="snippet", playlistId=playlist_id, maxResults=50)
             .execute()
         )
 
@@ -85,7 +85,7 @@ def step2():
 
             # Search for videos related to a specific query
             videos = youtube_client.search_videos(query, max_results=1)
-            time.sleep(3)
+            time.sleep(5)
 
             video = videos[0] if videos else None
             if video:
