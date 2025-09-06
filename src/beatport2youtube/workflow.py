@@ -47,7 +47,7 @@ def step2():
         playlist_id = os.environ.get("YOUTUBE_PLAYLIST_ID") or "dummy"
 
         # Get the playlist items
-        # todo: get only the first 5 items?
+        # todo: pagination
         playlist_items = (
             youtube_service.playlistItems()
             .list(part="snippet", playlistId=playlist_id, maxResults=50)
