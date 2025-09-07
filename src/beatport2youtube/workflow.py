@@ -1,5 +1,6 @@
 import datetime
 import os
+import re
 import time
 
 from google_auth_oauthlib.flow import InstalledAppFlow
@@ -27,8 +28,17 @@ def step1():
     print("Step 1 completed")
 
 
+def _get_beatport_id_from_note(note: str) -> str | None:
+    if not note:
+        return None
+    match = re.search(r"beatport_track_id:(\d+)", note)
+    if match:
+        return match.group(1)
+    return None
+
+
 def step2():
-    print("Step 2: Clean youtube playlist and update comment")
+    print("Step 2: Sync youtube playlist with Beatport Top 100")
     # When running locally, disable OAuthlib's HTTPs verification. When
     # running in production *do not* leave this option enabled.
     os.environ["OAUTHLIB_INSECURE_TRANSPORT"] = "1"
@@ -46,23 +56,95 @@ def step2():
         # Get the playlist ID from the environment variable
         playlist_id = os.environ.get("YOUTUBE_PLAYLIST_ID") or "dummy"
 
-        # Get the playlist items
-        # todo: pagination
-        playlist_items = (
-            youtube_service.playlistItems()
-            .list(part="snippet", playlistId=playlist_id, maxResults=50)
-            .execute()
-        )
+        # 1. Get existing items from YouTube playlist
+        print("Fetching existing items from YouTube playlist...")
+        existing_items = {}  # {beatport_id: playlist_item_id}
+        next_page_token = None
+        while True:
+            request = youtube_service.playlistItems().list(
+                part="snippet,contentDetails",
+                playlistId=playlist_id,
+                maxResults=50,
+                pageToken=next_page_token,
+            )
+            response = request.execute()
 
-        print(f"Found {len(playlist_items['items'])} items in the playlist.")
+            for item in response["items"]:
+                note = item.get("contentDetails", {}).get("note")
+                beatport_id = _get_beatport_id_from_note(note)
+                if beatport_id:
+                    existing_items[beatport_id] = item["id"]
 
-        # Delete current playlist items
-        for item in playlist_items["items"]:
-            # bulk delete is not supported?
-            youtube_service.playlistItems().delete(id=item["id"]).execute()
-            time.sleep(1)
+            next_page_token = response.get("nextPageToken")
+            if not next_page_token:
+                break
+        print(f"Found {len(existing_items)} items with Beatport IDs in the playlist.")
 
-        # Update playlist description
+        # 2. Get new track IDs from Beatport
+        new_beatport_ids = {str(track["id"]) for track in beatport_results}
+
+        # 3. Compare and find diffs
+        existing_beatport_ids = set(existing_items.keys())
+        ids_to_add = new_beatport_ids - existing_beatport_ids
+        ids_to_remove = existing_beatport_ids - new_beatport_ids
+
+        print(f"Tracks to add: {len(ids_to_add)}, Tracks to remove: {len(ids_to_remove)}")
+
+        # 4. Remove old items
+        if ids_to_remove:
+            print(f"Removing {len(ids_to_remove)} tracks...")
+            for beatport_id in ids_to_remove:
+                playlist_item_id = existing_items[beatport_id]
+                try:
+                    youtube_service.playlistItems().delete(id=playlist_item_id).execute()
+                    print(f"Removed track (Beatport ID: {beatport_id})")
+                    time.sleep(1)  # Be nice to the API
+                except Exception as e:
+                    print(f"Failed to remove track (Beatport ID: {beatport_id}): {e}")
+
+        # 5. Add new items
+        if ids_to_add:
+            print(f"Adding {len(ids_to_add)} new tracks...")
+            tracks_to_add = [
+                track for track in beatport_results if str(track["id"]) in ids_to_add
+            ]
+
+            api_key = os.environ.get("YOUTUBE_API_KEY") or "dummy"
+            youtube_client = YouTubeClient(api_key=api_key)
+
+            for result in tracks_to_add:
+                query = get_search_query(result)
+                print(f"Searching YouTube for: {query}")
+
+                videos = youtube_client.search_videos(query, max_results=1)
+                time.sleep(1)
+
+                video = videos[0] if videos else None
+                if video:
+                    print(
+                        f"Found video: {video['snippet']['title']} ({video['id']['videoId']})"
+                    )
+                    try:
+                        youtube_service.playlistItems().insert(
+                            part="snippet,contentDetails",
+                            body={
+                                "snippet": {
+                                    "playlistId": playlist_id,
+                                    "resourceId": video["id"],
+                                },
+                                "contentDetails": {
+                                    "note": f"beatport_track_id:{result['id']}"
+                                },
+                            },
+                        ).execute()
+                        print(f"Added video for Beatport track {result['id']}")
+                    except Exception as e:
+                        print(f"Failed to add video for Beatport track {result['id']}: {e}")
+                else:
+                    print(f"No video found for query: {query}")
+
+        # 6. Update playlist description
+        print("Updating playlist description...")
         current_time = datetime.datetime.now(datetime.timezone.utc).isoformat()
         youtube_service.playlists().update(
             part="snippet",
@@ -75,33 +157,4 @@ def step2():
             },
         ).execute()
 
-        # Initialize YouTube client for video search
-        api_key = os.environ.get("YOUTUBE_API_KEY") or "dummy"
-        youtube_client = YouTubeClient(api_key=api_key)
-
-        for result in beatport_results:
-            query = get_search_query(result)
-            print(f"Search query for YouTube: {query}")
-
-            # Search for videos related to a specific query
-            videos = youtube_client.search_videos(query, max_results=1)
-            time.sleep(5)
-
-            video = videos[0] if videos else None
-            if video:
-                print(
-                    f"Found video: {video['snippet']['title']} ({video['id']['videoId']})"
-                )
-
-                # Add video to playlist
-                youtube_service.playlistItems().insert(
-                    part="snippet",
-                    body={
-                        "snippet": {
-                            "playlistId": playlist_id,
-                            "resourceId": video["id"],
-                        }
-                    },
-                ).execute()
-            else:
-                print("No video found.")
+        print("Step 2 completed")
